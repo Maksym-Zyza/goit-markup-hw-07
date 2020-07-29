@@ -6,6 +6,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Утилиты*/
 h1,
 h2,
 h3,
@@ -18,7 +19,6 @@ img {
   display: block;
 }
 
-/* Утилиты*/
 .list {
   padding: 0;
   margin: 0;
@@ -34,7 +34,7 @@ img {
           align-items: center;
 }
 
-/* Page header */
+/* page-header */
 .container {
   width: 1200px;
   margin-left: auto;
@@ -47,6 +47,16 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+/* logo */
 .logo {
   margin-left: 15px;
   margin-right: 85px;
@@ -59,16 +69,7 @@ img {
   height: 31px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.no-padding-bottom {
-  padding-bottom: 0;
-}
-
-/* Site nav */
+/* site-navigation */
 .site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -113,7 +114,7 @@ img {
   opacity: 1;
 }
 
-/* Ел. адрес и телефон */
+/* email-and-phone */
 .page-header-adres {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -156,7 +157,7 @@ img {
   margin-right: 10px;
 }
 
-/* Hero */
+/* hero */
 .hero {
   text-align: center;
   padding-bottom: 280px;
@@ -207,7 +208,7 @@ img {
   text-align: center;
 }
 
-/* Section title */
+/* hero-title */
 .section-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -216,7 +217,7 @@ img {
   text-align: center;
 }
 
-/* Section 2 - Преймущества */
+/* section2-advantages */
 .benefits .benefits-item + .benefits-item {
   margin-left: 30px;
 }
@@ -249,7 +250,7 @@ img {
   line-height: 1.71;
 }
 
-/* Section 3 - Предложение */
+/* section3-offer */
 .offer .item + .item {
   margin-left: 30px;
 }
@@ -276,7 +277,7 @@ img {
   text-transform: uppercase;
 }
 
-/* Section 4 - Команда */
+/* section4-team */
 .team {
   background: #f5f4fa;
 }
@@ -334,7 +335,7 @@ img {
   fill: #2196f3;
 }
 
-/* Клиенты */
+/* section5-customers */
 .customers .item + .item {
   margin-left: 30px;
 }
@@ -363,7 +364,7 @@ img {
   fill: #2196f3;
 }
 
-/* Футер */
+/* footer */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -481,7 +482,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* СТРАНИЦА - Portfolio */
+/* page2-portfolio */
 .portfolio-selection {
   text-align: center;
   -webkit-box-pack: center;
@@ -626,7 +627,7 @@ img {
   line-height: 1.56;
 }
 
-/* Форма - "Заказать услугу" */
+/* form-order" */
 .backdrop {
   position: fixed;
   top: 0;
