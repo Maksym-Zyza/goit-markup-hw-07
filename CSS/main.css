@@ -765,9 +765,9 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field:hover > .textarea-label,
-.form-field:focus-within > .textarea-label,
-.form-field textarea:not(:placeholder-shown) + .textarea-label {
+.form-item-comment:hover > .textarea-label,
+.form-item-comment:focus-within > .textarea-label,
+.form-item-comment textarea:not(:placeholder-shown) + .textarea-label {
   color: #2196f3;
   -webkit-transform: translate(0px, -34px);
           transform: translate(0px, -34px);
