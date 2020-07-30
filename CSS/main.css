@@ -672,11 +672,11 @@ img {
   list-style: none;
 }
 
-.form-field {
+.form-item {
   position: relative;
 }
 
-.form-field input {
+.form-item input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -694,8 +694,8 @@ img {
   border-radius: 4px;
 }
 
-.form-field input:hover,
-.form-field input:focus {
+.form-item input:hover,
+.form-item input:focus {
   border: 1px solid #2196f3;
 }
 
@@ -733,6 +733,10 @@ img {
   fill: #2196f3;
 }
 
+.form-item-comment {
+  position: relative;
+}
+
 .comment {
   width: 448px;
   height: 120px;
@@ -749,7 +753,7 @@ img {
 
 .textarea-label {
   position: absolute;
-  top: -110px;
+  top: 15px;
   left: 16px;
   color: #757575;
   font-size: 14px;
